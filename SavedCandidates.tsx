@@ -1,8 +1,7 @@
 
-
- const Candidate = () => {
-
     /// Add Candidates in list
+
+   
 
     let addCandidates = [];
     const listCandidates = localStorage.getItem('listCandidates');
@@ -22,12 +21,7 @@
 
        ];
 
-       const matrix: number[][] = [
-            [2, 4, 6],
-
-            [10, 12, 14],
-
-       ];
+       
 
        const Area = localStorage.getItem('CandidateNumber');
        if (typeof CandidateSearch === 'string') {
@@ -69,4 +63,4 @@
   
 
 }
- }
+ 
